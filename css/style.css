@@ -30,9 +30,12 @@ button {
 /* list of utilities*/
 .utility-list-container {
     width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+ /*   margin-left: auto;
+    margin-right: auto;*/
 }
 
-
+.utility-list {
+  list-style: none;
+  
+}
 
