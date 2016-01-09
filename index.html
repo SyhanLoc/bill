@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+  
+  <title>Utilities Information</title>
+</head>
+<body>
+          <header class="heading">
+            <h1>List of Utilities</h1>
+          </header>
+<!-- Enter information -->
+      <section>
+          <div class="form-row">
+                <div class="utility-input">
+                    <label>Utilities Name</label>
+                    <input type="text" name="name" id="addItemValue">
+                </div>
+                <div class="utility-input">
+                    <label>Cost</label>
+                    <input type="data" name="number" id="addItemValue">
+                    <button type="submit" id="addItem">Add</button>
+                </div>
+          </div>
+<!--List of utilities  -->
+      </section>
+      <section class="utility-list-container">
+        <ul class="utility-list">
+            <li>
+              <button class="checkbox">✓</button>Gas
+              <button class="delete">x</button>
+            </li>
+            <li>
+                <button class="checkbox">✓</button>Electric
+                <button class="delete">x</button>
+            </li>
+        </ul>
+      </section>
+      <section class="clear-section">
+            <button type="reset" onclick="" id="resetButton">Clear List</button>
+      </section>
+</body>
+</html>
