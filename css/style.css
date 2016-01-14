@@ -1,7 +1,7 @@
 .heading {
   background-color: #99d7be;
   text-align: center;
-  font-family: "helvetica";
+  font-family: "helvetica", arial;
   padding: .5px;
 }
 
@@ -12,6 +12,7 @@
 }
 
 .utility-input {
+  font-family: "helvetica", arial;
   float: left;
   padding: 5px;
   margin-top: 8px;
@@ -39,3 +40,7 @@ button {
   
 }
 
+.listItem {
+  float: left;
+  list-style-type: none;
+}

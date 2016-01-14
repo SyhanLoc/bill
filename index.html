@@ -14,33 +14,27 @@
           </header>
 <!-- Enter information -->
       <section>
-          <div>
-                <div class="utility-input">
-                    <label>Utilities Name</label>
-                    <input type="text" name="name" id="addItemValue">
-                </div>
-                <div class="utility-input">
-                    <label>Cost</label>
-                    <input type="data" name="number" id="addItemValue">
-                    <button type="submit" id="addItem">Add</button>
-                </div>
+          <div class="utility-input">
+                <div class="quantity">Cost</div>
+                <input type="text" name="quantity"  />
           </div>
+          <div class="utility-input">
+                <div class="quantity">Utility</div>
+                <input type="text" name="checkListItem" />
+          </div>
+              <div class="utility-input">
+                <button id="submitButton">Submit</button>
+              </div>
+      </section>
+              <div class="listItem">
+              <ul class="list"></ul>
+              </div>
+      
 <!--List of utilities  -->
-      </section>
-      <section class="utility-list-container">
-        <ul class="utility-list">
-            <li>
-              <button class="checkbox">✓</button>Gas
-              <button class="delete">x</button>
-            </li>
-            <li>
-                <button class="checkbox">✓</button>Electric
-                <button class="delete">x</button>
-            </li>
-        </ul>
-      </section>
+
       <section class="clear-section">
             <button type="reset" onclick="" id="resetButton">Clear List</button>
-      </section>
+            
+      </section> 
 </body>
 </html>
